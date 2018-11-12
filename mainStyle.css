@@ -6,3 +6,31 @@
   padding-right:0;
   padding-left:0;
 }
+
+.margimg {
+  margin-top: 20px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+p {
+  padding: 10px;
+  text-align: justify;
+  overflow: auto;
+}
+
+.padme {
+padding-left: 10px;
+background-color: red;
+}
+
+.padder{
+  padding-top: 20px;
+  padding-right: 10px;
+}
+
+.padder2 {
+  padding-right: 10px;
+}
