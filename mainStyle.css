@@ -26,6 +26,10 @@ background-color: #F42C04;
   float: left;
 }
 
+#profileimg2 {
+  float: right;
+}
+
 .profilePicture {
 background-color: #88A2AA;
 font-size: 30px;
@@ -44,13 +48,13 @@ background-attachment: fixed;
 
 
 .AboutHeader {
-  height: 100px;
+  height: 200px;
   text-align: center;
   width: 100%;
   text-decoration: underline;
   color: #0F1A20;
-  background-color: #F42C04;
-  padding-top: 25px;
+  background-color: #88A2AA;
+  padding-top: 75px;
 }
 
 h1 {
@@ -59,4 +63,22 @@ h1 {
 
 #slider {
   padding: 0px;
+}
+
+
+.location {
+
+  background-color: #88A2AA;
+  font-size: 30px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: 98.7%;
+  background-image: url('https://images.alphacoders.com/443/443721.jpg');
+  height: 390px;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
 }
