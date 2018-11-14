@@ -13,6 +13,7 @@
 
 .underline {
   text-decoration: underline;
+  width: 100%;
 }
 
 p {
@@ -23,7 +24,7 @@ p {
 
 .padme {
 padding-left: 10px;
-background-color: red;
+background-color: #F42C04;
 }
 
 .padder{
