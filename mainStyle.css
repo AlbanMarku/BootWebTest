@@ -7,21 +7,6 @@
   padding-left:0;
 }
 
-.margimg {
-  margin-top: 20px;
-}
-
-.underline {
-  text-decoration: underline;
-  width: 100%;
-}
-
-p {
-  padding: 10px;
-  text-align: justify;
-  overflow: auto;
-}
-
 .padme {
 padding-left: 10px;
 background-color: #F42C04;
@@ -34,4 +19,44 @@ background-color: #F42C04;
 
 .padder2 {
   padding-right: 10px;
+}
+
+#profileimg {
+
+  float: left;
+}
+
+.profilePicture {
+background-color: #88A2AA;
+font-size: 30px;
+padding-bottom: 20px;
+padding-top: 20px;
+width: 98.7%;
+background-image: url('https://cdn.londonandpartners.com/-/media/images/london/visit/london-organisations/tower-bridge-exhibition/tower-bridge-homepage-image.jpg?mw=1920&hash=E19E0136A57855A8ED61B4E66EA72F1646CA8DAC');
+height: 390px;
+position: relative;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+
+
+.AboutHeader {
+  height: 100px;
+  text-align: center;
+  width: 100%;
+  text-decoration: underline;
+  color: #0F1A20;
+  background-color: #F42C04;
+  padding-top: 25px;
+}
+
+h1 {
+  margin: 0px;
+}
+
+#slider {
+  padding: 0px;
 }
