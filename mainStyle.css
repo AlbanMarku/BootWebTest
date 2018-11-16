@@ -30,9 +30,13 @@ background-color: #F42C04;
   float: right;
 }
 
+#profileimg3 {
+  float: left;
+}
+
 .profilePicture {
 background-color: #88A2AA;
-font-size: 30px;
+font-size: 29px;
 padding-bottom: 20px;
 padding-top: 20px;
 width: 98.7%;
@@ -44,8 +48,6 @@ background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;
 }
-
-
 
 .AboutHeader {
   height: 200px;
@@ -67,7 +69,6 @@ h1 {
 
 
 .location {
-
   background-color: #88A2AA;
   font-size: 30px;
   padding-bottom: 20px;
@@ -80,5 +81,29 @@ h1 {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
 
+.location2 {
+  background-color: #88A2AA;
+  font-size: 29px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: 98.7%;
+  background-image: url('https://wallpaper.wiki/wp-content/uploads/2017/05/Pictures-Download-Desktop-London-HD-Wallpapers.jpg');
+  height: 390px;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.centernav {
+  text-align: center;
+}
+
+.top {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
