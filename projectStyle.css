@@ -1,0 +1,45 @@
+.centernav {
+  text-align: center;
+}
+
+h1 {
+  margin: 0px;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.row.no-pad {
+  margin-right:0;
+  margin-left:0;
+}
+.row.no-pad > [class*='col-'] {
+  padding-right:0;
+  padding-left:0;
+}
+
+.myHeader {
+  text-decoration: underline;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.firstProject {
+  height: 200px;
+    text-align: center;
+    width: 100%;
+    text-decoration: underline;
+    color: #0F1A20;
+    background-color: #88A2AA;
+    padding-top: 75px;
+}
+
+.sideInfo {
+
+}
+
+
+.sideSlide {
+
+}

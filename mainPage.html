@@ -5,8 +5,10 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link rel="stylesheet" href="mainStyle.css">
   <title>MyWebsite</title>
+  <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 
 <body style="background-color: #0F1A20;">
@@ -36,6 +38,17 @@
   </div>
 
   <div style="background-color: #E0FBFC" class="container">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="homePageText">
+            <h1>Home Page</h1>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
     <div class="row">
       <div class="col-lg-12">
         <div id="slider" class="carousel slide" data-ride="carousel">
@@ -51,7 +64,7 @@
       </div>
     </div>
 
-    <!-- weird div -->
+    <!-- weird div.  Borders are messed up when closing this div early on. -->
 
     <div class="AboutHeader">
       <h1>AboutMe</h1>
@@ -117,6 +130,32 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script>
+      window.sr = ScrollReveal();
+      sr.reveal('#profileimg', {
+        duration: 2000,
+        origin: 'left',
+        distance: '300px'
+      });
+      window.sr = ScrollReveal();
+      sr.reveal('#profileimg2', {
+        duration: 2000,
+        origin: 'right',
+        distance: '300px'
+      });
+      window.sr = ScrollReveal();
+      sr.reveal('#profileimg3', {
+        duration: 2000,
+        origin: 'left',
+        distance: '300px'
+      });
+      window.sr = ScrollReveal();
+      sr.reveal('h1', {
+        duration: 2000,
+        origin: 'top',
+        distance: '100px'
+      });
+    </script>
 </body>
 
 </html>
