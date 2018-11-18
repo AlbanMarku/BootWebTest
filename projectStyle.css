@@ -26,13 +26,13 @@ h1, h2 {
 }
 
 .firstProject {
-  height: 200px;
+  height: 150px;
     text-align: center;
     width: 100%;
     text-decoration: underline;
     color: #0F1A20;
     background-color: #88A2AA;
-    padding-top: 75px;
+    padding-top: 50px;
 }
 
 .sideInfo {
@@ -42,4 +42,20 @@ h1, h2 {
 
 .sideSlide {
 
+}
+
+.row {
+  background-color: #E0FBFC;
+}
+
+ul {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+.top {
+  background-color: #88A2AA;
+  font-size: 20px;
+  text-decoration: underline;
+  text-align: center;
 }

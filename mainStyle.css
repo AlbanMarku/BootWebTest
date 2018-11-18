@@ -58,13 +58,13 @@ background-attachment: fixed;
 }
 
 .AboutHeader {
-  height: 200px;
+  height: 150px;
   text-align: center;
   width: 100%;
   text-decoration: underline;
   color: #0F1A20;
   background-color: #88A2AA;
-  padding-top: 75px;
+  padding-top: 50px;
 }
 
 h1 {
@@ -114,4 +114,8 @@ h1 {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+footer {
+  
 }
