@@ -1,5 +1,43 @@
+body {
+  background-color: #0F1A20;
+}
+
 h1, h2 {
   font-family: 'Montserrat', sans-serif;
+}
+
+#menuBar {
+  background-color: #F42C04
+}
+
+#menuh1 {
+  color: #0F1A20;
+}
+
+#smallText {
+  color: #E2856E;
+}
+
+#quote {
+  color: #0F1A20;
+}
+
+#navColour {
+  background-color: #88A2AA
+}
+
+#navText {
+  color: white;
+  font-size: 20px;
+}
+
+.centernav {
+  text-align: center;
+}
+
+#white1 {
+  background-color: #E0FBFC;
+  padding: 0px;
 }
 
 .homePageText {
@@ -7,27 +45,30 @@ h1, h2 {
   padding-bottom: 10px;
   text-align: center;
 }
-.row.no-pad {
-  margin-right:0;
-  margin-left:0;
-}
-.row.no-pad > [class*='col-'] {
-  padding-right:0;
-  padding-left:0;
+
+.AboutHeader {
+  height: 150px;
+  text-align: center;
+  width: 100%;
+  text-decoration: underline;
+  color: #0F1A20;
+  background-color: #88A2AA;
+  padding-top: 30px;
 }
 
-.padme {
-padding-left: 10px;
-background-color: #F42C04;
-}
-
-.padder{
-  padding-top: 20px;
-  padding-right: 10px;
-}
-
-.padder2 {
-  padding-right: 10px;
+.profilePicture {
+background-color: #88A2AA;
+font-size: 29px;
+padding-bottom: 20px;
+padding-top: 20px;
+width: 100%;
+background-image: url('https://cdn.londonandpartners.com/-/media/images/london/visit/london-organisations/tower-bridge-exhibition/tower-bridge-homepage-image.jpg?mw=1920&hash=E19E0136A57855A8ED61B4E66EA72F1646CA8DAC');
+height: 390px;
+position: relative;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
 }
 
 #profileimg {
@@ -38,50 +79,12 @@ background-color: #F42C04;
   float: right;
 }
 
-#profileimg3 {
-  float: left;
-}
-
-.profilePicture {
-background-color: #88A2AA;
-font-size: 29px;
-padding-bottom: 20px;
-padding-top: 20px;
-width: 98.7%;
-background-image: url('https://cdn.londonandpartners.com/-/media/images/london/visit/london-organisations/tower-bridge-exhibition/tower-bridge-homepage-image.jpg?mw=1920&hash=E19E0136A57855A8ED61B4E66EA72F1646CA8DAC');
-height: 390px;
-position: relative;
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
-background-attachment: fixed;
-}
-
-.AboutHeader {
-  height: 150px;
-  text-align: center;
-  width: 100%;
-  text-decoration: underline;
-  color: #0F1A20;
-  background-color: #88A2AA;
-  padding-top: 50px;
-}
-
-h1 {
-  margin: 0px;
-}
-
-#slider {
-  padding: 0px;
-}
-
-
 .location {
   background-color: #88A2AA;
   font-size: 30px;
   padding-bottom: 20px;
   padding-top: 20px;
-  width: 98.7%;
+  width: 100%;
   background-image: url('https://images.alphacoders.com/443/443721.jpg');
   height: 390px;
   position: relative;
@@ -96,7 +99,7 @@ h1 {
   font-size: 29px;
   padding-bottom: 20px;
   padding-top: 20px;
-  width: 98.7%;
+  width: 100%;
   background-image: url('https://wallpaper.wiki/wp-content/uploads/2017/05/Pictures-Download-Desktop-London-HD-Wallpapers.jpg');
   height: 390px;
   position: relative;
@@ -106,16 +109,7 @@ h1 {
   background-attachment: fixed;
 }
 
-.centernav {
-  text-align: center;
-}
-
 .top {
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-footer {
-  
+  background-color: #88A2AA;
 }
