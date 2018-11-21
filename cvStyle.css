@@ -59,4 +59,78 @@ h1 {
 #avatar {
   height: 200px;
   width: auto;
+  border-radius: 30%;
+  padding-left: 30px;
+}
+
+#siderBar {
+background-color: #88A2AA;
+}
+
+#mainBar {
+  background-color: blue;
+}
+
+h2 {
+  border: 2px solid #E0FBFC;
+  border-radius: 8px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#profileP {
+  text-align: justify;
+  font-size: 18px;
+  font-style: oblique;
+}
+
+#ulSide {
+  padding-left: 17px;
+  font-size: 18px;
+  font-style: oblique;
+  text-decoration: underline;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 10px;
+  background-color: #667b82;
+  margin-top: 0px;
+  color: black;
+}
+
+#marginEducaton {
+  margin-bottom: 0px;
+}
+
+#padP {
+  padding-left: 10px;
+}
+
+#small {
+  color: #E0FBFC;
+}
+
+#firstBlock {
+  background-color: #667b82;
+
+}
+
+#secondBlock {
+  background-color: #88A2AA;
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #E0FBFC;
+}
+
+#edP {
+  text-align: justify;
+  color: black;
+}
+
+#noPad12 {
+  padding: 0px;
 }
