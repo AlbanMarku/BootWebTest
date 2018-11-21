@@ -65,6 +65,7 @@ h1 {
 
 #siderBar {
 background-color: #88A2AA;
+padding-bottom: 25px;
 }
 
 #mainBar {
@@ -86,7 +87,7 @@ h2 {
 
 #ulSide {
   padding-left: 17px;
-  font-size: 18px;
+  font-size: 24px;
   font-style: oblique;
   text-decoration: underline;
 }
@@ -133,4 +134,50 @@ h5 {
 
 #noPad12 {
   padding: 0px;
+}
+
+#thumbnail {
+  width: 50px;
+  height: 40px;
+  float: left;
+  padding-top: 10px;
+}
+
+#picP {
+text-align: center;
+font-size: 20px;
+color: #667b82;
+padding-top: 10px;
+}
+
+#picP1 {
+text-align: center;
+font-size: 20px;
+color: #667b82;
+padding-top: 10px;
+}
+
+.borderPic {
+  border: 2px solid #667b82;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.borderPic1 {
+  border: 2px solid #667b82;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 10px;
+}
+
+.borderPic2 {
+  border: 2px solid #667b82;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 10px;
+}
+
+.top {
+  text-align: center;
+  background-color: #88A2AA;
 }
