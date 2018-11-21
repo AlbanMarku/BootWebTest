@@ -55,3 +55,27 @@ h1, h2 {
   background-color: #88A2AA;
   padding-top: 30px;
 }
+
+#feed {
+
+}
+
+a {
+color: black;
+font-size: 30px;
+}
+
+#facePic {
+  padding-left: 10px;
+  width: 80px;
+  height: 80px;
+}
+
+#marg {
+  margin-top: 10px;
+}
+
+.top {
+  text-align: center;
+  background-color: #88A2AA;
+}

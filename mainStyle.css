@@ -113,3 +113,9 @@ background-attachment: fixed;
   text-align: center;
   background-color: #88A2AA;
 }
+
+#visible {
+  color: white;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  text-shadow: 2px 2px black;
+}
