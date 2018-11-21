@@ -1,0 +1,57 @@
+body {
+  background-color: #0F1A20;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#menuBar {
+  background-color: #F42C04
+}
+
+#menuh1 {
+  color: #0F1A20;
+}
+
+#smallText {
+  color: #E2856E;
+}
+
+#quote {
+  color: #0F1A20;
+}
+
+#navColour {
+  background-color: #88A2AA
+}
+
+#navText {
+  color: white;
+  font-size: 20px;
+}
+
+.centernav {
+  text-align: center;
+}
+
+#white1 {
+  background-color: #E0FBFC;
+  padding: 0px;
+}
+
+.homePageText {
+  text-decoration: underline;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.AboutHeader {
+  height: 150px;
+  text-align: center;
+  width: 100%;
+  text-decoration: underline;
+  color: #0F1A20;
+  background-color: #88A2AA;
+  padding-top: 30px;
+}
